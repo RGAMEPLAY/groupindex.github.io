@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #a280df;
 }
 .title {
     font-family: Arial, sans-serif;
@@ -44,6 +45,9 @@ td, th {
 }
 
 tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd) {
     background-color: #dddddd;
 }
 #lol tr:nth-child(even){
