@@ -1,3 +1,49 @@
 body {
-	
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Karla', sans-serif, 'Belleza', sans-serif;
+	background-image: url('../img/photography.jpg');
+	background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 1366px 768px;
+    background-origin: content-box;
+    animation-fill-mode: forwards;
+    background-blend-mode: lighten;
+}
+
+
+
+h1 {
+	color: white;
+}
+
+
+
+
+
+
+/** Button for Navigation daw **/
+
+.btn {
+	border: 1px solid #0066cc;
+	padding: 10px 25px;
+	color: #0066cc;
+	text-decoration: none;
+	border-radius: 15px;
+	transition: all 0.15s;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.button {
+	margin-top: 30px;
+ 
+}
+.button2:hover {
+	background-color: #0066cc;
+	color: white;
+
+}
+.button1:hover {
+	background-color: #0066cc;
+	color: white;
 }
